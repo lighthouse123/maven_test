@@ -12,6 +12,8 @@ public class Person {
 
     private String address;
 
+    private Work work;
+
     public String getName() {
         return name;
     }
@@ -34,5 +36,13 @@ public class Person {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public Work getWork() {
+        return work;
+    }
+
+    public void setWork(Work work) {
+        this.work = work;
     }
 }
