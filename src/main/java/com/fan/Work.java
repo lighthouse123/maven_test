@@ -1,3 +1,5 @@
+package com.fan;
+
 /**
  * @description:
  * @author: fan
